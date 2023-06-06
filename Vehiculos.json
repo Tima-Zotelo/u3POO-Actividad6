@@ -1,0 +1,47 @@
+{
+    "__class__": "ListaVehiculos",
+    "vehiculos": [
+        {
+            "__class__": "Nuevo",
+            "__atributos__": {
+                "mod": "Chevrolet Onix",
+                "cantPuertas": 5,
+                "color": "Blanco Ghost",
+                "precioBase": 4700000,
+                "version": "Base"
+            }
+        },
+        {
+            "__class__": "Usado",
+            "__atributos__": {
+                "mod": "Fiat Palio",
+                "cantPuertas": 3,
+                "color": "Rojo",
+                "precioBase": 350000,
+                "patente": "OXR 839",
+                "km": 257998,
+                "a\u00f1o": 1998
+            }
+        },
+        {
+            "__class__": "Nuevo",
+            "__atributos__": {
+                "mod": "Peugeot 208",
+                "cantPuertas": 5,
+                "color": "Azul Vantra",
+                "precioBase": 7000000,
+                "version": "full"
+            }
+        },
+        {
+            "__class__": "Nuevo",
+            "__atributos__": {
+                "mod": "Fiat Cronos",
+                "cantPuertas": 5,
+                "color": "Negro Vulcano",
+                "precioBase": 4500000,
+                "version": "full"
+            }
+        }
+    ]
+}
