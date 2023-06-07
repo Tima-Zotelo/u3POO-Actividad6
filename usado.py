@@ -26,3 +26,6 @@ class Usado (Vehiculo):
 
     def getAño (self):
         return self.__anho
+
+    def setPrecioBase (self, precio):
+        super().setPB(precio)

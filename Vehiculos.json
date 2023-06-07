@@ -4,11 +4,21 @@
         {
             "__class__": "Nuevo",
             "__atributos__": {
-                "mod": "Chevrolet Onix",
+                "mod": "Fiat Cronos",
                 "cantPuertas": 5,
-                "color": "Blanco Ghost",
-                "precioBase": 4700000,
-                "version": "Base"
+                "color": "Negro Vulcano",
+                "precioBase": 4500000,
+                "version": "full"
+            }
+        },
+        {
+            "__class__": "Nuevo",
+            "__atributos__": {
+                "mod": "Peugeot 208",
+                "cantPuertas": 5,
+                "color": "Azul Vantra",
+                "precioBase": 7000000,
+                "version": "full"
             }
         },
         {
@@ -26,21 +36,11 @@
         {
             "__class__": "Nuevo",
             "__atributos__": {
-                "mod": "Peugeot 208",
+                "mod": "Chevrolet Onix",
                 "cantPuertas": 5,
-                "color": "Azul Vantra",
-                "precioBase": 7000000,
-                "version": "full"
-            }
-        },
-        {
-            "__class__": "Nuevo",
-            "__atributos__": {
-                "mod": "Fiat Cronos",
-                "cantPuertas": 5,
-                "color": "Negro Vulcano",
-                "precioBase": 4500000,
-                "version": "full"
+                "color": "Blanco Ghost",
+                "precioBase": 4700000,
+                "version": "Base"
             }
         }
     ]

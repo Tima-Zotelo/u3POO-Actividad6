@@ -1,8 +1,8 @@
 import json
 from pathlib import Path
 from listaVehiculos import ListaVehiculos
-from usado import Usado
 from nuevo import Nuevo
+from usado import Usado
 
 class ObjectEncoder(object):
 

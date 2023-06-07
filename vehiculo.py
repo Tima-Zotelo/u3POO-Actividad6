@@ -1,11 +1,3 @@
-'''
-De cada vehículo desea registrar el modelo (ej. Palio, Focus, etc.), cantidad de puertas, color y el precio base de venta. 
-Los vehículos nuevos son de una misma marca, en cambio los usados pueden ser de cualquier marca, por ello este también es un dato que debe registrar.
-
-Además, para los usados se registrará la patente, el año y el kilometraje.
-
-De un vehículo nuevo también registra la versión (base o full).
-'''
 class Vehiculo:
     __modelo: str
     __cantPuertas: int
@@ -29,6 +21,9 @@ class Vehiculo:
 
     def getPrecioBase (self):
         return self.__precioBase
+
+    def setPB (self, precio):
+        self.__precioBase = precio
 
     def toJSON(self):
         if self.__class__.__name__ == 'Usado':
