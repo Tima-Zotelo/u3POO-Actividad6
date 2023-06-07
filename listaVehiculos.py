@@ -101,7 +101,7 @@ class ListaVehiculos (IColeccion):
             ant = aux
             aux = aux.getSiguiente()
             while not flag and aux != None:
-                if aux.getDato().aux.getDato().__class__.__name__ == 'Usado' and aux.getDato().getPatente() == patente:
+                if aux.getDato().__class__.__name__ == 'Usado' and aux.getDato().getPatente() == patente:
                     flag = True
                 else:
                     ant = aux

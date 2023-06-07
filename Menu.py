@@ -130,7 +130,7 @@ El vehiculo es usado?
         os.system('cls')
         print ('---------->Ver precio de venta<----------')
         patente = input ('Ingrese la patente del vehiculo: ')
-        print (patente.upper())
+        print (f'patente: {patente.upper()}')
         precio = lv.VentaPatente(patente.upper())
         print (f'Precio de venta del vehiculo: ${precio}')
 
